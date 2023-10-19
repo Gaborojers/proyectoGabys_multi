@@ -1,0 +1,77 @@
+.pagina {
+    height: 100vh; /* Establece un alto mínimo del 100% del alto de la ventana */
+    display: flex; /* Para asegurarse de que ocupe todo el alto si el contenido no es suficiente */
+    flex-direction: column; /* Para alinear el contenido de arriba a abajo */
+    background-image: url(../img/bryn_beatson_yirlhy5qsqe_unsplash_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+
+.foto{
+    width: 200px;
+    height: 110px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+
+.container{
+    background-color: #FFFBEE;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px; /* Esto establece las esquinas redondas con un radio de 10px */
+    position: relative;
+    left: 700px;
+    top: 50px;
+}
+
+.email{
+    position: relative;
+    left: -100px;
+    top: 80px;
+    width: 300px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+}
+
+.email::placeholder{
+    color: #999; /* Cambia el color del texto del placeholder */
+  font-size: 14px; /* Cambia el tamaño de fuente del texto del placeholder */
+  font-style: italic; /* Cambia el estilo de fuente del texto del placeholder (por ejemplo, italic) */
+}
+
+.password{
+    position: relative;
+    left: 100px;
+    top: 120px;
+    width: 300px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+}
+
+.password::placeholder{
+    color: #999; /* Cambia el color del texto del placeholder */
+  font-size: 14px; /* Cambia el tamaño de fuente del texto del placeholder */
+  font-style: italic; /* Cambia el estilo de fuente del texto del placeholder (por ejemplo, italic) */
+}
+
+.boton{
+    position: relative;
+    background-color: lightpink;
+    left: -130px;
+    top: 210px;
+    width: 150px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: #ffff;
+}
+
+.logo{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
