@@ -1,0 +1,308 @@
+.pagina{
+    background-color: #EEEEEE;
+    height: 100vh; /* Establece un alto mínimo del 100% del alto de la ventana */
+    display: flex; /* Para asegurarse de que ocupe todo el alto si el contenido no es suficiente */
+    flex-direction: column; /* Para alinear el contenido de arriba a abajo */
+}
+
+.menu{
+    width: 150px;
+    height: 180000020px;
+    background-color: white;
+    border: gray;
+}
+
+.logo{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.boton{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: #ffff;
+    background-color: lightpink;
+}
+
+.home{
+    position: relative;
+    width: 50px;
+}
+
+.boton1{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    font-size: 20px;
+    color: darkmagenta;
+    background: transparent; /* Establece el fondo como transparente */
+    border: none; /* Elimina cualquier borde */
+}
+
+.boton2{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    font-size: 20px;
+    color: darkmagenta;
+    background: transparent; /* Establece el fondo como transparente */
+    border: none; /* Elimina cualquier borde */
+}
+
+.boton3{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    font-size: 20px;
+    color: darkmagenta;
+    background: transparent; /* Establece el fondo como transparente */
+    border: none; /* Elimina cualquier borde */
+}
+
+.boton4{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    font-size: 20px;
+    color: darkmagenta;
+    background: transparent; /* Establece el fondo como transparente */
+    border: none; /* Elimina cualquier borde */
+}
+
+.boton5{
+    position: relative;
+    top: 150px;
+    left: 20px;
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    font-size: 20px;
+    color: darkmagenta;
+    background: transparent; /* Establece el fondo como transparente */
+    border: none; /* Elimina cualquier borde */
+}
+
+.orden{
+    position: fixed;
+    background-color: white;
+    width: 600px;
+    height: 920px;
+    left: 1320px;
+}
+
+.letras{
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+}
+
+.chispas{
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    width: 500px;
+    height: 35px;
+    position: relative;
+    left: 50px;
+}
+
+.letra{
+    position: relative;
+    top: -3px;
+}
+
+.cono{
+    width: 600px;
+    border: 1px solid black;
+    height: 660px;
+}
+
+.boton6{
+    position: relative;
+    top: 50px;
+    left: 65px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: gray;
+    background-color: azure;
+}
+
+.boton7{
+    position: relative;
+    top: 50px;
+    left: 95px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: gray;
+    background-color: azure;
+}
+
+.boton8{
+    position: relative;
+    top: 50px;
+    left: 125px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: gray;
+    background-color: azure;
+}
+
+.conos{
+    position: relative;
+    width: 100px;
+}
+
+.cancelar{
+    position: relative;
+    background-color: red;
+    left: 50px;
+    top: 120px;
+    width: 150px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: #ffff;
+}
+
+.aceptar{
+    position: relative;
+    background-color: green;
+    left: 250px;
+    top: 120px;
+    width: 150px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: #ffff;
+}
+
+.principal{
+    position: relative;
+    top: -900px;
+    left: 200px;
+}
+
+.menus{
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+}
+
+.boton9{
+    position: relative;
+    top: 50px;
+    left: 155px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: gray;
+    background-color: azure;
+}
+
+.boton10{
+    position: relative;
+    top: 50px;
+    left: 185px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: gray;
+    background-color: azure;
+}
+
+.produc{
+    position: relative;
+    top: 50px;
+    left: 65px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: gray;
+    background-color: azure;
+}
+
+.helados{
+    position: relative;
+    top: -50px;
+}
+
+.produc2{
+    position: relative;
+    top: 50px;
+    left: 95px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: gray;
+    background-color: azure;
+}
+
+.produc3{
+    position: relative;
+    top: 50px;
+    left: 125px;
+    border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
+    padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
+    border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
+    font-size: 20px;
+    color: gray;
+    background-color: azure;
+}
+
+.producto{
+    position: relative;
+    width: 180px;
+}
+
+.botones{
+    position: relative;
+    left: 100px;
+    top: -30px;
+}
+
+.search_container {
+    position: relative;
+    display: inline-block;
+    top: -40px;
+    position: relative;
+    left: 700px; 
+  }
+  
+  .mySearchBar {
+    padding: 10px 30px 10px 10px; /* Ajusta los valores de padding según tu diseño */
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 25px;
+    width: 350px; /* Ajusta el ancho según tus necesidades */
+    background-color: #ffff;
+  }
+  
+  .search_icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #ffff; /* Cambia el color del icono según tus preferencias */ 
+    font-size: 18px; /* Ajusta el tamaño del icono según tus necesidades */
+    pointer-events: none; /* Evita que el icono sea clickeable */
+  }
