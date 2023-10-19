@@ -10,7 +10,7 @@ function Index() {
           <Image 
           src="/img/95ed7030_76ee_4be3_a6f3_abae123215b4_photoroom_1.png" 
           width={100} 
-          height={130}
+          height={130} 
           className={styles.logo}
           />
 
@@ -41,6 +41,7 @@ function Index() {
 
           <br />
 
+          <div className={styles.detras}>
           <Link href="/">
           <button className={styles.boton5}>
             <img src='/img/png-transparent-computer-icons-logout-angle-text-black-removebg-preview.png' className={styles.home}/>
@@ -48,8 +49,10 @@ function Index() {
           </button>
           </Link>
           </div>
+          </div>
 
           <div className={styles.principal}>
+          <img src='/img/choco37_1.png' className={styles.choco}/>
             <p className={styles.menus}><strong>Menú</strong> Categorías</p>
 
             <div className={styles.search_container}>
@@ -130,8 +133,9 @@ function Index() {
             <p>$00.00</p>
             </button>
             </div>
-
+            <img src='/img/image_2.png' className={styles.chocofresa}/>
     </div>
+    
 
           <div className={styles.orden}>
 
@@ -157,6 +161,9 @@ function Index() {
 
             <br />
             <br />
+
+            <button className={styles.cancelar}>Cancelar</button>
+            <button className={styles.aceptar}>Aceptar</button>
 
             <div className={styles.cono}>
             <p className={styles.letras}><strong>Cono</strong></p>

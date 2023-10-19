@@ -8,8 +8,9 @@
 .menu{
     width: 150px;
     height: 180000020px;
-    background-color: white;
+    background-color: #D0FFF4;
     border: gray;
+    position: fixed;
 }
 
 .logo{
@@ -90,9 +91,13 @@
     border: none; /* Elimina cualquier borde */
 }
 
+.detras{
+    z-index: 1;
+}
+
 .orden{
     position: fixed;
-    background-color: white;
+    background-color: #FFEBC3;
     width: 600px;
     height: 920px;
     left: 1320px;
@@ -112,6 +117,7 @@
     height: 35px;
     position: relative;
     left: 50px;
+    background-color: #ffff;
 }
 
 .letra{
@@ -122,7 +128,10 @@
 .cono{
     width: 600px;
     border: 1px solid black;
-    height: 660px;
+    height: 560px;
+    position: relative;
+    top: 32px;
+    background-color: #ffff;
 }
 
 .boton6{
@@ -168,10 +177,11 @@
 
 .cancelar{
     position: relative;
-    background-color: red;
+    background-color: #EE6389;
     left: 50px;
-    top: 120px;
-    width: 150px;
+    top: 30px;
+    width: 500px;
+    height: 35px;
     border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
     padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
     border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
@@ -181,21 +191,23 @@
 
 .aceptar{
     position: relative;
-    background-color: green;
-    left: 250px;
-    top: 120px;
-    width: 150px;
+    background-color: #D0FFF4;
+    left: 50px;
+    top: -50px;
+    width: 500px;
+    height: 35px;
     border-radius: 10px; /* Esto establece las esquinas redondas con un radio de 10px */
     padding: 10px; /* Esto agrega espacio interno para que el texto no esté pegado a los bordes redondos */
     border: 2px solid #ccc; /* Esto agrega un borde con un color gris claro */
     font-size: 20px;
-    color: #ffff;
+    color: #EE6389;
 }
 
 .principal{
     position: relative;
-    top: -900px;
+    top: -270px;
     left: 200px;
+    position: fixed;
 }
 
 .menus{
@@ -238,6 +250,7 @@
     font-size: 20px;
     color: gray;
     background-color: azure;
+    z-index: 1;
 }
 
 .helados{
@@ -255,6 +268,7 @@
     font-size: 20px;
     color: gray;
     background-color: azure;
+    z-index: 1;
 }
 
 .produc3{
@@ -267,6 +281,7 @@
     font-size: 20px;
     color: gray;
     background-color: azure;
+    z-index: 1;
 }
 
 .producto{
@@ -306,3 +321,20 @@
     font-size: 18px; /* Ajusta el tamaño del icono según tus necesidades */
     pointer-events: none; /* Evita que el icono sea clickeable */
   }
+
+.chocofresa{
+    position: relative;
+    width: 1220px;
+    top: -215px;
+    height: 270px;
+    right: 50px;
+}
+
+.choco{
+    position: relative;
+    width: 1220px;
+    top: 265px;
+    height: 270px;
+    right: 50px;
+    z-index: -1;
+}
